@@ -1,128 +1,268 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seu Tempo, Seu Ouro</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      background: #000000;
-      color: #fff;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin: 1rem 0;
-    }
-    header a {
-      background: #000000;
-      color: #fff;
-      padding: 0.8rem 1.5rem;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 1rem;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-    section {
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    section h2 {
-      color: #000000;
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-    }
-    section p {
-      margin-bottom: 1.2rem;
-    }
-    section ul {
-      list-style: none;
-      padding: 0;
-    }
-    section ul li {
-      background: #e9c46a;
-      padding: 0.8rem;
-      margin-bottom: 0.5rem;
-      border-radius: 5px;
-    }
-    footer {
-      text-align: center;
-      background: #264653;
-      color: #fff;
-      padding: 1rem 0;
-    }
-    footer a {
-      color: #000000;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Tempo Vale +</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 1.5rem;
+        }
+        .cta-button {
+            display: inline-block;
+            margin: 1rem auto;
+            padding: 0.8rem 1.5rem;
+            background-color: #FFD700;
+            color: #000000;
+            text-align: center;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            background-color: #FFC107;
+        }
+        section {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        section h2 {
+            color: #FFD700;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem auto;
+            max-width: 600px;
+            text-align: left;
+        }
+        ul li {
+            background-color: #111111;
+            border: 1px solid #FFD700;
+            border-radius: 5px;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+        }
+        .testimonial {
+    background-color: #111111;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    padding: 0.5rem; /* Mantém um leve espaçamento interno */
+    margin: 1rem auto;
+    display: inline-block; /* Ajusta o tamanho do quadro ao conteúdo (imagem) */
+    text-align: center; /* Centraliza o conteúdo */
+}
+.testimonial img {
+    max-width: 150px; /* Tamanho máximo da imagem */
+    width: 100%; /* Ajusta ao quadro, caso menor */
+    border-radius: 5px; /* Bordas arredondadas */
+        }
+        .faq {
+            background-color: #111111;
+            border: 1px solid #FFD700;
+            border-radius: 5px;
+            padding: 1.5rem;
+            margin: 1.5rem auto;
+            max-width: 600px;
+            text-align: left;
+        }
+        .faq h3 {
+            color: #FFD700;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #111111;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Você está a um passo de transformar sua rotina e recuperar seu tempo</h1>
-    <p>Pare de adiar o que é importante. Com <strong>"Seu tempo vale +"</strong>, descubra como organizar sua vida, eliminar distrações e criar uma rotina que te devolva equilíbrio e produtividade.</p>
-    <a href="#comprar">Quero Transformar Minha Rotina Agora</a>
-  </header>
+    <header>
+        <h1>Seu Tempo Vale +</h1>
+        <p>Transforme sua rotina com quem já esteve no seu lugar.</p>
+        <a href="#oferta-exclusiva" class="cta-button scroll">Mude agora sua rotina</a>
+    </header>
 
-  <section>
-    <h2>O Desafio</h2>
-    <p>A sensação de estar sempre ocupado, mas nunca realizado, é desgastante. As distrações do dia a dia consomem seu tempo, e os compromissos mais importantes acabam sendo adiados. No final, a sobrecarga e a frustração tomam conta.</p>
-    <p>E se houvesse uma forma de mudar isso? Uma maneira de resgatar seu tempo, eliminar distrações e organizar sua rotina sem culpa ou estresse? <strong>"Seu Tempo vale +"</strong> foi criado exatamente para ajudá-lo a transformar essa realidade.</p>
-  </section>
+    <section id="introducao">
+        <h2>Eu sei exatamente como você se sente...</h2>
+        <p>
+            Durante muito tempo, eu também sentia que o dia nunca era suficiente. Era uma luta constante entre tarefas que se acumulavam, compromissos que eu nunca conseguia cumprir e aquela sensação frustrante de que estava deixando o que era mais importante para depois — minha família, meus sonhos, minha qualidade de vida.
+        </p>
+        <p>
+            Até que decidi que algo precisava mudar. Foi aí que pesquisei muito e mergulhei fundo em estratégias simples, mas transformadoras, que compartilho com você neste livro. Se eu consegui, você também com certeza consegue.
+        </p>
+    </section>
 
-  <section>
-  <img src="https://github.com/eduardospinelli1/ebook/blob/main/capa%20ebook%20para%20pagina%20de%20vendas.png?raw=true" alt="Descrição da Imagem" style="display: block; margin: 2rem auto; max-width: 100%; height: auto;">
+    <!-- Imagem adicionada aqui -->
+<section id="imagem-inspiracao" style="text-align: center; margin: 2rem 0;">
+    <img src="https://github.com/eduardospinelli1/seu-tempo-vale-/blob/main/assets/capa%20ebook%20para%20pagina%20de%20vendas%20(2).png?raw=true" alt="Imagem ilustrativa sobre gestão de tempo" style="max-width: 100%; height: auto; border-radius: 10px; border: 2px solid #FFD700;">
 </section>
 
-  <section>
-    <h2>A Solução</h2>
-    <p>Com este eBook, você aprenderá estratégias práticas e hábitos comprovados para transformar sua vida. Descubra como:</p>
-    <ul>
-      <li>Priorizar o que realmente importa.</li>
-      <li>Eliminar as distrações que drenam sua energia.</li>
-      <li>Criar tempo de qualidade para suas metas e para si mesmo.</li>
-    </ul>
-  </section>
+    <section id="solucao">
+        <h2>Como "Seu Tempo Vale +" pode ajudar você?</h2>
+        <ul>
+            <li>Aprenda a identificar as prioridades na sua rotina e elimine o excesso.</li>
+            <li>Descubra como evitar distrações e focar no que realmente importa.</li>
+            <li>Organize suas tarefas de forma prática e eficiente, sem complicações.</li>
+            <li>Garanta mais tempo para o que você ama: Sua família, seus hobbies e o principal: cuidar de si mesmo.</li>
+        </ul>
+        <a href="#oferta-exclusiva" class="cta-button scroll">Quero transformar minha rotina</a>
+    </section>
 
-  <section>
-    <h2>Por que você precisa de "Seu Tempo vale +"?</h2>
-    <p>Este eBook foi desenvolvido para ajudar você a:</p>
-    <ul>
-      <li>Identificar e eliminar os ladrões de tempo.</li>
-      <li>Desenvolver hábitos duradouros e eficazes.</li>
-      <li>Organizar sua rotina sem estresse.</li>
-      <li>Viver melhor aproveitando cada momento.</li>
-    </ul>
-  </section>
+    <section id="depoimentos">
+    <h2>Veja o que outros já conquistaram:</h2>
+    <div class="testimonial">
+        <img src="https://github.com/eduardospinelli1/seu-tempo-vale-/blob/main/assets/prova%20social%201.png?raw=true" alt="Depoimento 1">
+    </div>
+    <div class="testimonial">
+        <img src="https://github.com/eduardospinelli1/seu-tempo-vale-/blob/main/assets/prova%20social%202.png?raw=true" alt="Depoimento 2">
+    </div>
+    <div class="testimonial">
+        <img src="https://github.com/eduardospinelli1/seu-tempo-vale-/blob/main/assets/prova%20social%203.png?raw=true" alt="Depoimento 3">
+    </div>
+</section>
 
-  <section>
-    <h2>Depoimentos</h2>
-    <p><em>"Eu sempre me sentia sobrecarregada, como se o tempo nunca fosse suficiente. Depois de aplicar as estratégias deste eBook, finalmente consegui organizar minha rotina e dedicar tempo ao que realmente importa para mim!"</em> – Maria L.</p>
-    <p><em>"Com tantas tarefas e distrações, eu me sentia perdido. Este eBook me ajudou a priorizar o que é importante e alcançar resultados incríveis. Recomendo a todos que buscam mais equilíbrio na vida!"</em> – Ricardo S.</p>
-  </section>
 
-  <section id="comprar">
-    <h2>Garantia</h2>
-    <p>Estamos tão confiantes de que você vai amar este eBook que oferecemos uma garantia de satisfação de 7 dias. Se não gostar, devolvemos 100% do seu investimento. É simples, seguro e sem riscos.</p>
-    <a href="https://pay.kiwify.com.br/yCUM8Rd?afid=llORFid5" style="background: #000000; padding: 1rem 2rem; color: white; text-decoration: none; border-radius: 5px;">Compre Agora e Comece Hoje</a>
-  </section>
 
-  <footer>
-    <p>&copy; 2025 Seu Tempo vale +. Todos os direitos reservados.</p>
-    <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a> | <a href="mailto:contato.eduardospinelli@gmail.com">Contato</a></p>
-  </footer>
+    <section id="garantia">
+        <h2>Você não tem nada a perder</h2>
+        <p>
+            Confio tanto no impacto que este conteúdo pode ter na sua vida que ofereço uma garantia incondicional de 7 dias. Leia, aplique e veja os resultados. Se não for o que você esperava, devolvo seu investimento sem nenhuma complicação.
+        </p>
+    </section>
+
+    <section id="oferta-exclusiva">
+        <h2 style="color: #FFD700;">Oferta Exclusiva</h2>
+        <p>
+            Eu entendo que tomar decisões pode ser difícil, mas quero tornar isso o mais fácil possível para você. 
+            Pensando nisso, estou oferecendo uma condição especial para você aqui e agora. 
+            Não perca a chance de transformar sua rotina e ser ainda mais produtivo por um preço imbatível!
+        </p>
+        <ul>
+            <li>Domine sua gestão do tempo com técnicas práticas e fáceis de aplicar.</li>
+            <li>Tenha mais tempo para você e para quem você ama.</li>
+            <li>Elimine o estresse de não conseguir cumprir suas tarefas diárias.</li>
+            <li>Organize seu dia de forma eficiente e produtiva.</li>
+        </ul>
+        <p style="font-size: 1.2rem; color: #ffffff;">De <span style="text-decoration: line-through;">R$110,00</span> por apenas <strong style="color: #FFD700;">R$79,90</strong>!</p>
+        <p>
+            Mas atenção: essa oferta especial está disponível apenas por <strong>tempo limitado</strong>! 
+            Aproveite agora mesmo antes que o preço volte ao normal.
+        </p>
+        <div id="temporizador" style="font-size: 1.5rem; font-weight: bold; color: #FFD700; margin: 1rem 0;"></div>
+        <a href="https://pay.kiwify.com.br/9B3KZ7C?afid=fufScXy8" class="cta-button">Adquira com desconto Agora!</a>
+    </section>
+
+    <section id="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq">
+            <h3>1. Como aplicar as dicas do livro no meu dia a dia?</h3>
+            <p>O livro é repleto de estratégias práticas e simples que você pode começar a implementar imediatamente. Cada capítulo traz exemplos e orientações detalhadas para facilitar sua aplicação.</p>
+        </div>
+        <div class="faq">
+            <h3>2. Quanto tempo leva para ver resultados?</h3>
+            <p>Os resultados variam de pessoa para pessoa, mas muitos leitores relatam mudanças positivas em poucos dias ao aplicarem as técnicas sugeridas consistentemente.</p>
+        </div>
+        <div class="faq">
+            <h3>3. O que acontece se eu não gostar do livro?</h3>
+            <p>Sem problemas! Você tem 7 dias para pedir seu reembolso total. Basta entrar em contato, e devolveremos o investimento sem sem complicações.</p>
+        </div>
+        <div class="faq">
+            <h3>4. O livro é adequado para qualquer pessoa?</h3>
+            <p>Sim! As dicas e estratégias foram desenvolvidas para serem úteis tanto para profissionais, quanto para quem busca organizar melhor sua vida pessoal. Podendo então ser aplicada por qualquer pessoa em qualquer condição.</p>
+        </div>
+    </section>
+
+    <!-- Botão de compra após dúvidas frequentes -->
+    <section id="comprar" style="text-align: center; padding: 2rem;">
+        <a href="#oferta-exclusiva" class="cta-button scroll">Compre Agora e Mude Sua Vida</a>
+    </section>
+
+    <footer>
+    <p>&copy; 2025 Seu Tempo Vale +. Todos os direitos reservados.</p>
+    <p>Contato: <a href="mailto:contato.eduardospinelli@gmail.com" style="color: #FFD700;">contato.eduardospinelli@gmail.com</a></p>
+    <p>Siga no Instagram: <a href="https://www.instagram.com/eduardospinellii?igsh=MTRuMWdlMHZ1cm4yeQ%3D%3D&utm_source=qr" style="color: #FFD700;" target="_blank">@eduardospinellii</a></p>
+</footer>
+
+
+    <script>
+    // Temporizador regressivo de 2 horas
+    function iniciarTemporizador(duracao, display) {
+        let timer = duracao, horas, minutos, segundos;
+        setInterval(function () {
+            horas = parseInt(timer / 3600, 10);
+            minutos = parseInt((timer % 3600) / 60, 10);
+            segundos = parseInt(timer % 60, 10);
+
+            horas = horas < 10 ? "0" + horas : horas;
+            minutos = minutos < 10 ? "0" + minutos : minutos;
+            segundos = segundos < 10 ? "0" + segundos : segundos;
+
+            display.textContent = `${horas}:${minutos}:${segundos}`;
+
+            if (--timer < 0) {
+                display.textContent = "Tempo esgotado! Oferta encerrada.";
+            }
+        }, 1000);
+    }
+
+    window.onload = function () {
+        const duasHoras = 2 * 60 * 60; // 2 horas em segundos
+        const display = document.querySelector('#temporizador');
+        iniciarTemporizador(duasHoras, display);
+    };
+
+    // Rolagem suave
+    document.querySelectorAll('a.scroll').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    });
+</script>
+
+
 </body>
 </html>
